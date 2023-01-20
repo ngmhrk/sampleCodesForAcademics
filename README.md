@@ -2,7 +2,7 @@
 
 ## プログラム
 
-### AVX/AVX2でベクトル化された方向性Cubic補間のプログラム（C++）
+### AVX/AVX2でベクトル化された方向性Cubic補間のプログラム（C++） - [リンク](https://github.com/ngmhrk/sampleCodesForAcademics/blob/main/sampleCodesForAcademics/DCCI32FC1.cpp#L6)
 
 - 画像拡大アルゴリズムの1つである，方向性Cubic補間（Directional Cubic Convolution Interpolation: DCCI）のプログラムです．
 - 私個人がフルスクラッチで記述したものではなく，研究室のOBが記述したプログラムを必要に応じて修正しているものです．
@@ -12,7 +12,7 @@
 
 ※プログラムの公開の許可を担当教員から受けています．
 
-### ドメイン固有言語Halideで記述された方向性Cubic補間のプログラム（Halide）
+### ドメイン固有言語Halideで記述された方向性Cubic補間のプログラム（Halide） - [リンク](https://github.com/ngmhrk/sampleCodesForAcademics/blob/main/sampleCodesForAcademics/DCCI32FC1Halide.cpp#L102)
 
 - 方向性Cubic補間を，ドメイン固有言語（Domain-specific language: DSL）のHalideを用いて記述したプログラムです．
 - Halideは，高速に動作する画像処理に特化したドメイン固有言語であり，C++に組み込まれて使用することができる内部DSLです．
