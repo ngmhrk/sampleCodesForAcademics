@@ -1,3 +1,8 @@
+#include "DCCI.hpp"
+
+using namespace std;
+using namespace cv;
+
 void DCCI32FC1(const Mat& src_, Mat& dst, const float threshold, int ompNumThreads)
 {
 	CV_Assert(src_.type() == CV_32FC1);
